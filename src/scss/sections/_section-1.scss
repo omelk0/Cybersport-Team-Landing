@@ -1,0 +1,29 @@
+.section-1 {
+  padding: 52px 0;
+  background-image: url("../img/section-1__background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__main-image {
+    display: block;
+    max-width: 685px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__secondary-image {
+    display: block;
+    max-width: 128px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 750px) {
+      max-width: 85px;
+    }
+
+    @media (max-width: 480px) {
+      max-width: 50px;
+    }
+  }
+}
