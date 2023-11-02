@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media(max-width: 750px) {
+    padding: 150px 0;
+  }
+
   &__main-image {
     display: block;
     max-width: 685px;
