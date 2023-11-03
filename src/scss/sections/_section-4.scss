@@ -17,12 +17,12 @@
             transform: translateX(-50%);
             width: 200px;
             height: 3px;
-            background: #FE0;
+            background: $main-yellow;
         }
     }
 
     &__subtitle {
-        color: #847A87;
+        color: $main-gray;
         text-align: center;
         font-size: 42px;
         font-weight: 400;
@@ -47,11 +47,11 @@
         max-width: 225px;
         min-width: 225px;
         width: 100%;
-        box-shadow: 5px 10px 25px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: $main-shadow;
     }
 
     &__list-item-image {
-        background-color: #FE0;
+        background-color: $main-yellow;
         position: relative;
         width: 100%;
         padding-top: 15px;
@@ -76,7 +76,7 @@
     }
 
     &__list-item-info {
-        background-color: #000;
+        background-color: $main-black;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -93,7 +93,7 @@
     }
 
     &__list-item-info-nickname {
-        color: #FE0;
+        color: $main-yellow;
         text-align: center;
         font-size: 24px;
         font-weight: 400;

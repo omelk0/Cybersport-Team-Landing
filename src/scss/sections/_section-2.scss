@@ -1,6 +1,6 @@
 .section-2 {
     padding: 65px 0 53px;
-    background: #FE0;
+    background: $main-yellow;
 
     &__title {
         text-align: center;
@@ -18,7 +18,7 @@
             transform: translateX(-50%);
             width: 200px;
             height: 3px;
-            background: #847A87;
+            background: $main-gray;
         }
     }
 
@@ -48,7 +48,7 @@
         max-width: 710px;
 
         span {
-            color: #847A87;
+            color: $main-gray;
             font-weight: 600;
         }
 
