@@ -1,65 +1,65 @@
 .section-2 {
-    padding: 65px 0 53px;
-    background: $main-yellow;
+  padding: 65px 0 53px;
+  background: $main-yellow;
 
-    &__title {
-        text-align: center;
-        font-size: 64px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 50px;
-        position: relative;
+  &__title {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
 
-        &::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 200px;
-            height: 3px;
-            background: $main-gray;
-        }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 3px;
+      background: $main-gray;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  &__text {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 710px;
+
+    span {
+      color: $main-gray;
+      font-weight: 600;
     }
 
-    &__subtitle {
-        text-align: center;
-        font-size: 42px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 30px;
+    @media (max-width: 1000px) {
+      margin-bottom: 30px;
+      max-width: 100%;
     }
+  }
 
-    &__content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        @media(max-width:1000px) {
-            flex-direction: column;
-            text-align: center;
-        }
-    }
-
-    &__text {
-        font-size: 32px;
-        font-weight: 400;
-        text-transform: uppercase;  
-        max-width: 710px;
-
-        span {
-            color: $main-gray;
-            font-weight: 600;
-        }
-
-        @media(max-width:1000px) {
-            margin-bottom: 30px;
-            max-width: 100%;
-        }
-    }
-
-    &__image {
-        max-width: 452px;
-        width: 100%;
-    }
+  &__image {
+    max-width: 452px;
+    width: 100%;
+  }
 }

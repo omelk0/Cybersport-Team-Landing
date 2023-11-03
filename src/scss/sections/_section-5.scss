@@ -46,13 +46,13 @@
     justify-content: center;
     margin-bottom: 60px;
 
-    @media(max-width:650px) {
-        flex-direction: column;
+    @media (max-width: 650px) {
+      flex-direction: column;
     }
 
     img {
-        max-width: 300px;
-        width: 100%;
+      max-width: 300px;
+      width: 100%;
     }
   }
 
@@ -69,12 +69,12 @@
     text-transform: uppercase;
     font-size: 28px;
     box-shadow: $main-shadow;
-    transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
     cursor: pointer;
 
     &:hover {
-        font-size: 32px;
-        font-weight: 600;
+      font-size: 32px;
+      font-weight: 600;
     }
   }
 }

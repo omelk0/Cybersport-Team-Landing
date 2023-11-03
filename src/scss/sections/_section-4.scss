@@ -1,110 +1,110 @@
 .section-4 {
-    padding: 100px 0;
+  padding: 100px 0;
 
-    &__title {
-        text-align: center;
-        font-size: 64px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 50px;
-        position: relative;
+  &__title {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
 
-         &::after {
-            content: '';
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 200px;
-            height: 3px;
-            background: $main-yellow;
-        }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 3px;
+      background: $main-yellow;
+    }
+  }
+
+  &__subtitle {
+    color: $main-gray;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 225px;
+    min-width: 225px;
+    width: 100%;
+    box-shadow: $main-shadow;
+  }
+
+  &__list-item-image {
+    background-color: $main-yellow;
+    position: relative;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 170px;
+    border-radius: 15px 15px 0 0;
+
+    .rifle {
+      position: absolute;
+      left: 10px;
+      bottom: 7px;
+      height: 150px;
     }
 
-    &__subtitle {
-        color: $main-gray;
-        text-align: center;
-        font-size: 42px;
-        font-weight: 400;
-        text-transform: uppercase;
-        max-width: 800px;
-        margin: 0 auto 50px;
+    .player {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
     }
+  }
 
-    &__list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
+  &__list-item-info {
+    background-color: $main-black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    border-radius: 0 0 15px 15px;
+
+    .flag {
+      width: 30px;
+      height: 20px;
+      margin-bottom: 15px;
     }
+  }
 
-    &__list-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 225px;
-        min-width: 225px;
-        width: 100%;
-        box-shadow: $main-shadow;
-    }
+  &__list-item-info-nickname {
+    color: $main-yellow;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
 
-    &__list-item-image {
-        background-color: $main-yellow;
-        position: relative;
-        width: 100%;
-        padding-top: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-        min-height: 170px;
-        border-radius: 15px 15px 0 0;
-
-        .rifle {
-            position: absolute;
-            left: 10px;
-            bottom: 7px;
-            height: 150px;
-        }
-
-        .player {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-
-    &__list-item-info {
-        background-color: $main-black;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 10px;
-        border-radius: 0 0 15px 15px ;
-
-        .flag {
-            width: 30px;
-            height: 20px;
-            margin-bottom: 15px;
-        }
-    }
-
-    &__list-item-info-nickname {
-        color: $main-yellow;
-        text-align: center;
-        font-size: 24px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-bottom: 2px;
-    }
-
-    &__list-item-info-name {
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+  &__list-item-info-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
